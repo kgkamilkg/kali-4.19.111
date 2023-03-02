@@ -12,12 +12,7 @@ cd a127f-T
 
 2. Build
 
-make clean && make mrproper
-export PLATFORM_VERSION=13
-export ANDROID_MAJOR_VERSION=T
-export ARCH=arm64
-make physwizz_defconfig
-make
 
+./build_kernel.sh
 
 @physwizz on telegram and xda

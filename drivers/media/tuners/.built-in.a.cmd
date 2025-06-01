@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/built-in.a :=  rm -f drivers/media/tuners/built-in.a; ./toolchain/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/media/tuners/built-in.a drivers/media/tuners/msi001.o

@@ -1662,7 +1662,7 @@ extern int uether_queue_index;
 static ssize_t terminal_version_show(struct device *dev,
 		struct device_attribute *attr, char *buf)
 {
-	int ret, i;
+	int ret;
 	ret = sprintf(buf, "major %x minor %x vendor %x\n",
 			terminal_mode_version & 0xff,
 			(terminal_mode_version >> 8 & 0xff),

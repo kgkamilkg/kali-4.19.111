@@ -1,0 +1,1 @@
+cmd_drivers/media/spi/cxd2880-spi.ko := ./toolchain/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -r -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o drivers/media/spi/cxd2880-spi.ko drivers/media/spi/cxd2880-spi.o drivers/media/spi/cxd2880-spi.mod.o ;  true

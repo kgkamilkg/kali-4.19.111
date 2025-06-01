@@ -1,0 +1,20 @@
+!<thin>
+//                                              234       `
+rtl818x/rtl8187/dev.o/
+rtl818x/rtl8187/rtl8225.o/
+rtl818x/rtl8187/leds.o/
+rtl818x/rtl8187/rfkill.o/
+rtl8xxxu/rtl8xxxu_core.o/
+rtl8xxxu/rtl8xxxu_8192e.o/
+rtl8xxxu/rtl8xxxu_8723b.o/
+rtl8xxxu/rtl8xxxu_8723a.o/
+rtl8xxxu/rtl8xxxu_8192c.o/
+/0              0           0     0     644     609512    `
+/23             0           0     0     644     509752    `
+/50             0           0     0     644     371160    `
+/74             0           0     0     644     357224    `
+/100           /0           0     0     644     1428560   `
+/126            0           0     0     644     410328    `
+/153            0           0     0     644     414656    `
+/180            0           0     0     644     372144    `
+/207            0           0     0     644     377088    `

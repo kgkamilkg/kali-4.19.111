@@ -1,0 +1,1 @@
+cmd_ipc/built-in.a :=  rm -f ipc/built-in.a; ./toolchain/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD ipc/built-in.a ipc/compat.o ipc/util.o ipc/msgutil.o ipc/msg.o ipc/sem.o ipc/shm.o ipc/syscall.o ipc/ipc_sysctl.o ipc/namespace.o

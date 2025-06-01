@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/built-in.a :=  rm -f drivers/net/wireless/mediatek/built-in.a; ./toolchain/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/net/wireless/mediatek/built-in.a drivers/net/wireless/mediatek/mt7601u/built-in.a

@@ -1,0 +1,28 @@
+!<thin>
+//                                              246       `
+cpufreq.o/
+freq_table.o/
+cpufreq_stats.o/
+cpufreq_times.o/
+cpufreq_performance.o/
+cpufreq_powersave.o/
+cpufreq_userspace.o/
+cpufreq_ondemand.o/
+cpufreq_conservative.o/
+cpufreq_governor.o/
+cpufreq_governor_attr_set.o/
+exynos-acme.o/
+exynos-ufc.o/
+/0              0           0     0     644     504728    `
+/11             0           0     0     644     83352     `
+/25            /0           0     0     644     74896     `
+/42            /0           0     0     644     177032    `
+/59             0           0     0     644     61016     `
+/82             0           0     0     644     60616     `
+/103            0           0     0     644     70360     `
+/124            0           0     0     644     134840    `
+/144            0           0     0     644     86680     `
+/168            0           0     0     644     106616    `
+/188            0           0     0     644     28504     `
+/217            0           0     0     644     428752    `
+/232            0           0     0     644     176480    `

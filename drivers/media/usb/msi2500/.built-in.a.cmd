@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/msi2500/built-in.a :=  rm -f drivers/media/usb/msi2500/built-in.a; ./toolchain/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/media/usb/msi2500/built-in.a drivers/media/usb/msi2500/msi2500.o

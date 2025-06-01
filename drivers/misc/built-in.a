@@ -1,0 +1,141 @@
+!<thin>
+//                                              1820      `
+eeprom/eeprom_93cx6.o/
+uid_sys_stats.o/
+samsung/scsc/scsc_log_collector.o/
+samsung/scsc/scsc_log_collector_proc.o/
+samsung/scsc/scsc_log_collector_mmap.o/
+samsung/scsc/scsc_logring_main.o/
+samsung/scsc/scsc_logring_ring.o/
+samsung/scsc/scsc_logring_debugfs.o/
+samsung/scsc/platform_mif_module.o/
+samsung/scsc/platform_mif_3830.o/
+samsung/scsc/mxlog_transport.o/
+samsung/scsc/fw_panic_record.o/
+samsung/scsc/panicmon.o/
+samsung/scsc/suspendmon.o/
+samsung/scsc/mxlog.o/
+samsung/scsc/mxproc.o/
+samsung/scsc/scsc_service.o/
+samsung/scsc/scsc_mx_module.o/
+samsung/scsc/scsc_mx_impl.o/
+samsung/scsc/mxman.o/
+samsung/scsc/miframman.o/
+samsung/scsc/mifmboxman.o/
+samsung/scsc/mifproc.o/
+samsung/scsc/mifintrbit.o/
+samsung/scsc/fwhdr.o/
+samsung/scsc/fwimage.o/
+samsung/scsc/cpacket_buffer.o/
+samsung/scsc/mifstream.o/
+samsung/scsc/mxmgmt_transport.o/
+samsung/scsc/gdb_transport.o/
+samsung/scsc/scsc_lerna.o/
+samsung/scsc/mxsyserr.o/
+samsung/scsc/mxfwconfig.o/
+samsung/scsc/mx140_file.o/
+samsung/scsc/mxlogger.o/
+samsung/scsc/scsc_wlbtd.o/
+samsung/scsc/client_test.o/
+samsung/scsc/mx_mmap.o/
+samsung/scsc/mx250_fm.o/
+samsung/scsc/mx250_fm_test.o/
+samsung/scsc_bt/scsc_bt_module.o/
+samsung/scsc_bt/scsc_shm.o/
+samsung/scsc_bt/scsc_avdtp_detect.o/
+tzdev/lib/circ_buf.o/
+tzdev/lib/circ_buf_packet.o/
+tzdev/core/cdev.o/
+tzdev/core/cred.o/
+tzdev/core/event.o/
+tzdev/core/iwio.o/
+tzdev/core/iwservice.o/
+tzdev/core/iwsock.o/
+tzdev/core/log.o/
+tzdev/core/mem.o/
+tzdev/core/notifier.o/
+tzdev/core/ree_time.o/
+tzdev/core/sysdep.o/
+tzdev/core/tzdev.o/
+tzdev/core/umem.o/
+tzdev/core/uiwsock.o/
+tzdev/core/iwlog.o/
+tzdev/core/kthread_pool_smpboot.o/
+tzdev/core/platform.o/
+tzdev/teec/context.o/
+tzdev/teec/misc.o/
+tzdev/teec/session.o/
+tzdev/teec/shared_memory.o/
+tzdev/debug/iw_boot_log.o/
+tzdev/extensions/boost.o/
+tzdev/extensions/irs.o/
+
+/0              0           0     0     644     48120     `
+/23            /0           0     0     644     178136    `
+/40             0           0     0     644     171160    `
+/75             0           0     0     644     104936    `
+/115            0           0     0     644     127496    `
+/155            0           0     0     644     200528    `
+/189            0           0     0     644     108632    `
+/223            0           0     0     644     206512    `
+/260            0           0     0     644     162544    `
+/296            0           0     0     644     316744    `
+/330            0           0     0     644     97720     `
+/362            0           0     0     644     23480     `
+/394            0           0     0     644     37128     `
+/419            0           0     0     644     38152     `
+/446            0           0     0     644     27328     `
+/468            0           0     0     644     232488    `
+/491            0           0     0     644     211936    `
+/520            0           0     0     644     203664    `
+/551            0           0     0     644     209120    `
+/580            0           0     0     644     364008    `
+/602            0           0     0     644     108856    `
+/628            0           0     0     644     44672     `
+/655            0           0     0     644     146800    `
+/679            0           0     0     644     54912     `
+/706            0           0     0     644     9344      `
+/728            0           0     0     644     10632     `
+/752            0           0     0     644     66408     `
+/783            0           0     0     644     20896     `
+/809            0           0     0     644     96104     `
+/842           /0           0     0     644     71136     `
+/872            0           0     0     644     135200    `
+/899            0           0     0     644     56184     `
+/924            0           0     0     644     53952     `
+/951            0           0     0     644     177072    `
+/978            0           0     0     644     156408    `
+/1003           0           0     0     644     255976    `
+/1030           0           0     0     644     163000    `
+/1058           0           0     0     644     193120    `
+/1082           0           0     0     644     45000     `
+/1107          /0           0     0     644     124552    `
+/1137           0           0     0     644     273392    `
+/1171           0           0     0     644     234208    `
+/1199           0           0     0     644     45088     `
+/1236           0           0     0     644     76720     `
+/1258           0           0     0     644     14816     `
+/1287           0           0     0     644     110296    `
+/1306           0           0     0     644     149008    `
+/1325           0           0     0     644     12608     `
+/1345           0           0     0     644     117992    `
+/1364           0           0     0     644     6440      `
+/1388           0           0     0     644     241072    `
+/1409           0           0     0     644     29624     `
+/1427           0           0     0     644     150360    `
+/1445           0           0     0     644     97912     `
+/1468           0           0     0     644     46312     `
+/1491           0           0     0     644     140736    `
+/1512           0           0     0     644     193080    `
+/1532           0           0     0     644     143712    `
+/1551           0           0     0     644     197296    `
+/1573           0           0     0     644     112648    `
+/1593           0           0     0     644     182984    `
+/1628           0           0     0     644     124848    `
+/1651           0           0     0     644     28832     `
+/1673           0           0     0     644     131824    `
+/1692           0           0     0     644     171976    `
+/1714          /0           0     0     644     134664    `
+/1742           0           0     0     644     117144    `
+/1769           0           0     0     644     16024     `
+/1795           0           0     0     644     136912    `

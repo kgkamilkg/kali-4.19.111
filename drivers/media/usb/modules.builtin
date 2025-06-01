@@ -1,0 +1,3 @@
+kernel/drivers/media/usb/airspy/airspy.ko
+kernel/drivers/media/usb/hackrf/hackrf.ko
+kernel/drivers/media/usb/msi2500/msi2500.ko

@@ -1,0 +1,71 @@
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+security/samsung/defex_lsm/Makefile:14: [DEFEX] INTEGRITY_ENABLE
+  CHK     kernel/kheaders_data.tar.xz
+kperfmon_DUMMY="olog.pb.h file is missing... retrying"
+cp: nie można wykonać stat na './../../frameworks/base/proto/src/olog.proto': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+cp: nie można wykonać stat na './../../vendor/samsung/system/libperflog/aprotoc': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+cp: nie można wykonać stat na './../../system/logging/libperflog/aprotoc': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+cp: nie można wykonać stat na './../frameworks/base/proto/src/olog.proto': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+cp: nie można wykonać stat na './../vendor/samsung/system/libperflog/aprotoc': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+chmod: nie ma dostępu do './drivers/kperfmon/aprotoc': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+make[2]: ./drivers/kperfmon/aprotoc: Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+cp: nie można wykonać stat na './drivers/kperfmon/olog.pb.h': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+kperfmon_DUMMY="olog.pb.h file is missing... again"
+cp: nie można wykonać stat na './../../system/core/liblog/include/log/perflog.h': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+cp: nie można wykonać stat na './../../system/logging/liblog/include/log/perflog.h': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+cp: nie można wykonać stat na './../system/core/liblog/include/log/perflog.h': Nie ma takiego pliku ani katalogu
+kperfmon_DUMMY=""
+kperfmon_DUMMY="perflog.h file is missing."
+PLATFORM_VERSION is 13
+ANDROID_PLATFORM_VERSION is 13
+PLATFORM_VERSION is 13
+ANDROID_PLATFORM_VERSION is 13
+  CC      drivers/usb/host/ehci-hcd.o
+  CC      drivers/usb/gadget/function/f_ncm.o
+  AR      drivers/usb/gadget/legacy/built-in.a
+  CC      drivers/usb/gadget/function/u_ether_ncm.o
+  CC      drivers/usb/gadget/function/f_ecm.o
+drivers/usb/gadget/function/f_ncm.c:1665:11: error: unused variable 'i' [-Werror,-Wunused-variable]
+        int ret, i;
+                 ^
+1 error generated.
+make[4]: *** [scripts/Makefile.build:333: drivers/usb/gadget/function/f_ncm.o] Błąd 1
+make[4]: *** Oczekiwanie na niezakończone zadania....
+  CC      drivers/usb/host/xhci.o
+drivers/usb/gadget/function/u_ether_ncm.c:52:7: error: use of undeclared identifier 'skb'
+                if (skb)
+                    ^
+drivers/usb/gadget/function/u_ether_ncm.c:53:24: error: use of undeclared identifier 'skb'
+                        dev_consume_skb_any(skb);
+                                            ^
+2 errors generated.
+make[4]: *** [scripts/Makefile.build:333: drivers/usb/gadget/function/u_ether_ncm.o] Błąd 1
+  CC      drivers/usb/host/xhci-mem.o
+make[3]: *** [scripts/Makefile.build:637: drivers/usb/gadget/function] Błąd 2
+make[2]: *** [scripts/Makefile.build:637: drivers/usb/gadget] Błąd 2
+make[2]: *** Oczekiwanie na niezakończone zadania....
+  CC      drivers/usb/host/xhci-ext-caps.o
+  CC      drivers/usb/host/xhci-ring.o
+  CC      drivers/watchdog/watchdog_core.o
+  CC      drivers/usb/host/xhci-hub.o
+  CC      drivers/watchdog/watchdog_dev.o
+  CC      drivers/usb/host/xhci-dbg.o
+  CC      drivers/watchdog/s3c2410_wdt.o
+  CC      drivers/usb/host/xhci-trace.o
+  CC      drivers/watchdog/softdog.o
+  CC      drivers/usb/host/xhci-plat.o
+  AR      drivers/watchdog/built-in.a
+  AR      drivers/usb/host/built-in.a
+make[1]: *** [scripts/Makefile.build:637: drivers/usb] Błąd 2
+make: *** [Makefile:1171: drivers] Błąd 2

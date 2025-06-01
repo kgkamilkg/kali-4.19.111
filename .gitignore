@@ -1,0 +1,4 @@
+vmlinux
+vmlinux.o
+.tmp_vmlinux1
+.tmp_vmlinux2
